@@ -41,6 +41,7 @@ def get_language_code(language):
         "galician": "gl",
         "scottish gaelic": "gd",
         "swahili": "sw",
+        "bangala": "ln",
         "welsh": "cy",
         "burundian": "rn",
         "somali": "so",
@@ -98,33 +99,3 @@ def example():
     print(translate(text, lang))
 
 #example()
-
-import csv
-import time, math
-
-def questionDemo():
-    #choose language and initialize model
-    language = input("Choose Language: ")
-    lang = get_language_code(language)
-    initializeModel(lang)
-
-    questions = []
-
-    #read in a csv containing a list of questions
-    with open('questions.csv', newline='', encoding='utf-8') as f:
-        reader = csv.reader(f)
-        data = list(reader)
-        #extract the first collumn as a list
-        questions = [i[0] for i in data]
-        
-    pct = 0
-    #translate each question and print the result
-    for question in questions:
-        input(translate(question, lang))
-        print("......\n")
-        #wait a third of a second
-        time.sleep(0.3)
-        pct += (math.random(1,20)/10)
-        print(pct + "pool reduced")
-
-questionDemo()

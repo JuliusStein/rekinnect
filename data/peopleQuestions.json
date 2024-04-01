@@ -1,0 +1,22 @@
+{
+	"123":
+	{
+		"question": "Was your house near a river, lake, or body or water?",
+		"response": "Y"
+	},
+	"231":
+	{
+		"question": "Did you have any brothers or sisters?",
+		"response": "N"	
+	},
+	"321":
+	{
+		"question": "Was your uniform at school blue when you were young?",
+		"response": "N"
+	},
+	"312":
+	{
+		"question": "Was your house near a market, store, or shop?",
+		"response": "IDK"
+	}
+}
