@@ -13,7 +13,6 @@ def connect():
 
 app = connect()
 
-
 def initializeDB():
     ref = db.reference("/user123/questions")
     with open("data/peopleQuestions.json", "r") as f:
@@ -23,23 +22,18 @@ def initializeDB():
 
 def addQuestions(userid, questionPath):
     ref = db.reference("/" + userid + "/questions")
-
     with open("data/"+questionPath, "r") as f:
         file_contents = json.load(f)
-
     for key, value in file_contents.items():
         ref.push().set(value)
+    print("Questions Added")
 
-    print("Question Added")
-
-def addQuestion(userid, question, response):
+def addQuestion(userid, questionID, question,  response):
     ref = db.reference("/" + userid + "/questions")
 
-    questionObj = ({"question": question, "response": response})
-    for key, value in questionObj.items():
-        ref.push().set(value)
+    questionObj = {"questionID":questionID, "question": question, "response": response}
+    ref.push().set(questionObj)
         
-
     print("Question Added")
 
 def getQuestions(userid):
@@ -49,11 +43,6 @@ def getQuestions(userid):
 def getQuestion(userid, questionid):
     ref = db.reference("/" + userid + "/questions/" + questionid)
     return ref.get()
-
-def updateQuestion(userid, questionid, question, response):
-    ref = db.reference("/" + userid + "/questions/" + questionid)
-    json_obj = json.dumps({"question": question, "response": response})
-    ref.update(json_obj)
 
 def deleteQuestion(userid, questionid):
     ref = db.reference("/" + userid + "/questions/" + questionid)
@@ -69,5 +58,5 @@ def addUser(userid):
 
 #initializeDB()
 #addQuestions("user123", "testQuestion.json")
-addQuestion("user123", "Were you an only child?", "Y")
+addQuestion("user123", "222", "Were you an only child?", "Y")
 

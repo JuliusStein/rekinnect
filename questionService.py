@@ -1,13 +1,14 @@
 import csv
 import time, math
 from translationService import get_language_code, translate, initializeModel
-from transformers import pipeline
+#from transformers import pipeline
 from storageService import connect, addQuestion
 
+global questions
 questions = []
-connect()
 
 def loadQuestions():
+    global questions
     #read in a csv containing a list of questions
     with open('data/questions.csv', newline='', encoding='utf-8') as f:
         reader = csv.reader(f)
@@ -18,21 +19,15 @@ def loadQuestions():
 loadQuestions()
 
 def rephraseQuestion(question):
-    # create pieline for generating text
-    gen = pipeline('summarization')
-    # generate a new question based on the input question
-    new_question = gen(question)
-    return new_question[0]["summary_text"]
-
-def saveAnswers(answers):
-    with open('answers.csv', mode='w', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f)
-        writer.writerow(["Question", "Answer", "Translated"])
-        for ans in answers:
-            writer.writerow([ans["question"], ans["answer"], ans["translated"]])
+    ## create pieline for generating text
+    #gen = pipeline('summarization')
+    ## generate a new question based on the input question
+    #new_question = gen(question)
+    #return new_question[0]["summary_text"]
+    return question
 
 def storeResponse(question, response):
-    addQuestion("testUser2", question, response)
+    addQuestion("testUser2", "111", question, response)
 
 def runService():
     #choose language and initialize model
@@ -68,8 +63,11 @@ def runService():
                 print("invalid answer, please enter Y, N, P, PN, or IDK\n")
                 answer = "ERROR"
                 
-            answers[num] = {"question": quest, "answer": answer, "translated": question}
-            storeResponse(question, answer)
+            #answers[num] = {"question": quest, "answer": answer, "translated": question}
+            #store the response in the database
+            storeResponse(questionID, question, answer)
+            #post the response to the console
+            
             num += 1
             print(str(round(num / len(questions),2)) + translate(" percent of questions completed", lang))
             print("......\n")
@@ -78,6 +76,6 @@ def runService():
             print("No answer given")
             answer = "SKIP"
 
-#runService()
+runService()
             
-print(rephraseQuestion("How far was your house from the nearest river?"))
+#print(rephraseQuestion("How far was your house from the nearest river?"))
