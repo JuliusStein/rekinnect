@@ -32,6 +32,5 @@ class Profile:
         self.details[question] = answer    
     
     
-
 # create an instance of the Profile class
 profile = Profile("First Second Patronym Family", 10, "Arabic")

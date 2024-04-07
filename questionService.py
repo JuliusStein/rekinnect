@@ -13,21 +13,28 @@ def loadQuestions():
     with open('data/questions.csv', newline='', encoding='utf-8') as f:
         reader = csv.reader(f)
         data = list(reader)
-        #extract the first collumn as a list
-        questions = [i[0] for i in data]
-        
-loadQuestions()
+        #extract the first collumn as ids
+        ids = [i[0] for i in data] 
+        #extract the second collumn as questions
+        questionsRaw = [i[1] for i in data]
+        #extract the third collumn as categories
+        categories = [i[2] for i in data]
+        for i in range(1,len(ids)):
+            questions.append((ids[i], questionsRaw[i], categories[i]))
 
-def rephraseQuestion(question):
+loadQuestions()
+print(questions[10])
+
+def rephraseQuestion(questionText):
     ## create pieline for generating text
     #gen = pipeline('summarization')
     ## generate a new question based on the input question
     #new_question = gen(question)
     #return new_question[0]["summary_text"]
-    return question
+    return questionText
 
-def storeResponse(question, response):
-    addQuestion("testUser2", "111", question, response)
+def storeResponse(userID, question, response):
+    addQuestion(userID, question[0], question[1], question[2], response)
 
 def runService():
     #choose language and initialize model
@@ -43,9 +50,9 @@ def runService():
     #translate each question and print the result
     for quest in questions:
         if language != "english":
-            question = translate(quest, lang)
+            question = translate(quest[1], lang)
         else:
-            question = quest
+            question = quest[1]
 
         answer = input(question + ": ")
         if answer != "":
@@ -63,9 +70,8 @@ def runService():
                 print("invalid answer, please enter Y, N, P, PN, or IDK\n")
                 answer = "ERROR"
                 
-            #answers[num] = {"question": quest, "answer": answer, "translated": question}
             #store the response in the database
-            storeResponse(questionID, question, answer)
+            storeResponse(question[0], question[1], question[2], answer)
             #post the response to the console
             
             num += 1

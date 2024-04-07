@@ -1,7 +1,6 @@
 import firebase_admin
 from firebase_admin import db
 from firebase_admin import credentials
-
 import json
 
 def connect():
@@ -11,27 +10,30 @@ def connect():
         })
     return default_app
 
+global app
 app = connect()
 
 def initializeDB():
-    ref = db.reference("/user123/questions")
-    with open("data/peopleQuestions.json", "r") as f:
-        file_contents = json.load(f)
-        ref.set(file_contents)
+    ref = db.reference("/")
+    ref.set({})
     print("Database Initialized")
 
-def addQuestions(userid, questionPath):
-    ref = db.reference("/" + userid + "/questions")
-    with open("data/"+questionPath, "r") as f:
+def addUserInfo(userid, dataPath):
+    ref = db.reference("/" + userid + "/userData")
+    with open("data/"+dataPath, "r") as f:
         file_contents = json.load(f)
     for key, value in file_contents.items():
         ref.push().set(value)
-    print("Questions Added")
+    print("User Data Added")
 
-def addQuestion(userid, questionID, question,  response):
+def addQuestion(userid, questionID, question, category, response):
     ref = db.reference("/" + userid + "/questions")
 
-    questionObj = {"questionID":questionID, "question": question, "response": response}
+    questionObj = {"questionID":questionID,
+                   "question": question,
+                   "category": category,
+                   "response": response
+                   }
     ref.push().set(questionObj)
         
     print("Question Added")
@@ -49,14 +51,5 @@ def deleteQuestion(userid, questionid):
     ref.delete()
 
 def deleteUser(userid):
-    ref = db.reference("/" + userid + "/questions")
+    ref = db.reference("/" + userid + "/")
     ref.delete()
-
-def addUser(userid):
-    ref = db.reference("/" + userid)
-    ref.set({"questions": {}})
-
-#initializeDB()
-#addQuestions("user123", "testQuestion.json")
-addQuestion("user123", "222", "Were you an only child?", "Y")
-

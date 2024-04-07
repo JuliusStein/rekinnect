@@ -1,63 +1,261 @@
-Question,Category,Related Questions
-Does your family have a specific home country?,,
-Do you have any siblings?,,
-Do you know your home address?,,
-Were there any landmarks near your home?,,
-Was there a school near your home?,,
-Were there any stores or restaurants close to your home?,,
-Did your family have close friends?,,
-Do you have relatives living in the same city?,,
-Did your family have any pets?,,
-Does any of your family member have a distinct mark or tattoo?,,
-Did you go to school?,,
-Do you have a favorite book or story read by your parents?,,
-Is your family religious?,,
-Did family used to sing songs together?,,
-Did your family travel places?,,
-Did you play specific sports or games with your family?,,
-Were there specific trees or plants at your home?,,
-Are there meals your parents specialize in making?,,
-Did your family own a vehicle?,,
-Can you recall the color of your house?,,
-Was your house brown?,,
-Was your house made of bricks?,,
-Was your house white?,,
-"Was your house red, yellow, or blue?",,
-Was your house made of stone?,,
-Did your family visit a specific doctor or dentist?,,
-Was your house made of wood?,,
-Did your family own a business?,,
-Did you have a favorite teacher at school?,,
-Were your favorite toys or belongings also liked by your family?,,
-Did your family attend a specific religious building?,,
-Did your family talk about moving to another place?,,
-Did someone help your family before the separation?,,
-Were there any natural disasters around your separation time?,,
-Did you or your family members celebrate a birthday around the separation time?,,
-Did your family talk about emergency plans?,,
-Did your family have secret places or hiding spots?,,
-Were there memorable natural formations around your home?,,
-Did your family visit the market or shopping center regularly?,,
-Did your family receive regular deliveries at home?,,
-Did you have a cake for your birthday?,,
-Were there specific words or phrases your family used often?,,
-Did your parents ever take you to their workplace?,,
-Does your family have mementos or heirlooms?,,
-Does your family have favorite movies or TV shows?,,
-Were your parents part of any social groups or clubs?,,
-Have you been photographed with your family?,,
-Was there a lake or pond nearby your home?,,
-Were there mountains nearby?,,
-Was there a river near your home?,,
-Did any of your siblings or parents wear glasses?,,
-Was there a favorite pet in your family?,,
-Did your family have a special recipe?,,
-Were there births or deaths in your family that you can remember?,,
-Have you had any contact with your family since you were separated?,,
-Do you think someone from your family would try to find you?,,
-Did your family have regular visitors?,,
-Did your family own any livestock or farm animals?,,
-Do you recall going to a favorite destination with your family?,,
-Did your family use to pray together?,,
-Did anyone in your family have a medical condition?,,
-Did your family celebrate birthdays together?,,
+ID,Question,Category
+1,Does your family have a specific home country?,Home
+2,Do you have any siblings?,Family
+3,Do you know your home address?,Home
+4,Were there any landmarks near your home?,Geography
+5,Was there a school near your home?,Home
+6,Were there any stores or restaurants close to your home?,Home
+7,Did your family have close friends?,Family
+8,Do you have relatives living in the same city?,Family
+9,Did your family have any pets?,Family
+10,Does any of your family member have a distinct mark or tattoo?,Family
+11,Did you go to school?,Education
+12,Do you have a favorite book or story read by your parents?,Education
+13,Is your family religious?,Religion
+14,Did family used to sing songs together?,Family
+15,Did your family travel places?,Family
+16,Did you play specific sports or games with your family?,Family
+17,Were there specific trees or plants at your home?,Home
+18,Are there meals your parents specialize in making?,Family
+19,Did your family own a vehicle?,Items
+20,Was your house brown?,Home
+21,Was your house made of bricks?,Home
+22,Was your house white?,Home
+23,"Was your house red, yellow, or blue?",Home
+24,Was your house made of stone?,Home
+25,Did your family visit a specific doctor or dentist?,Family
+26,Was your house made of wood?,Home
+27,Did your family own a business?,Family
+28,Did you have a favorite teacher at school?,Education
+29,Were your favorite toys or belongings also liked by your family?,Items
+30,Did your family attend a specific religious building?,Religion
+31,Did your family talk about moving to another place?,Family
+32,Did someone help your family before the separation?,Family
+33,Were there any natural disasters around your separation time?,Separation
+34,Did you or your family members celebrate a birthday around the separation time?,Separation
+35,Did your family talk about emergency plans?,Separation
+36,Did your family have secret places or hiding spots?,Home
+37,Were there memorable natural formations around your home?,Home
+38,Did your family visit the market or shopping center regularly?,Family
+39,Did your family receive regular deliveries at home?,Home
+40,Did you have a cake for your birthday?,Practices
+41,Were there specific words or phrases your family used often?,Practices
+42,Did your parents ever take you to their workplace?,Practices
+43,Does your family have mementos or heirlooms?,Family
+44,Does your family have favorite movies or TV shows?,Family
+45,Have you been photographed with your family?,Family
+46,Was there a lake or pond nearby your home?,Home
+47,Were there mountains nearby?,Geography
+48,Was there a river near your home?,Geography
+49,Did any of your siblings or parents wear glasses?,Family
+50,Was there a favorite pet in your family?,Family
+51,Did your family have a special recipe?,Practices
+52,Were there births or deaths in your family that you can remember?,Family
+53,Have you had any contact with your family since you were separated?,Separation
+54,Did your family own any livestock or farm animals?,Family
+55,Did your family use to pray together?,Religion
+56,Did anyone in your family have a medical condition?,Family
+57,Did your family celebrate birthdays together?,Practices
+58,Did you live in a house in your homeland?,Home
+59,"Was your home close to a body of water like a river, lake or sea?",Geography
+60,Did you live in a city?,Geography
+61,Did you live in a village?,Geography
+62,Did you have electricity in your home?,Home
+63,Was your home near to a mosque or church or other religious building?,Religion
+64,Did your parents work in a market?,Family
+65,Did you go to school back home?,Education
+66,"Did you own animals in your home, like goats or chickens?",Family
+67,Was there a mountain near your home?,Geography
+68,Did you live near a border of your country?,Geography
+69,Was your house made of mud or clay?,Home
+70,Did your family farm for your food?,Home
+71,Was a train station or bus stop located near your home?,Home
+72,Did your family eat rice daily?,Food
+73,Was the weather hot most of the year?,Geography
+74,Did you used to go to a breeder market to buy livestock?,Practices
+75,Did your community have weekly or monthly markets?,Practices
+76,Was your home near a major road?,Home
+77,Did you live close to a forest?,Geography
+78,Were you the oldest child in your family?,Family
+79,Did your family celebrate religious festivals together?,Religion
+80,Was your house painted a particular color?,Home
+81,Did your family own a car or a bicycle?,Items
+82,Was there a school within walking distance from your home?,Education
+83,Did it snow where you lived?,Geography
+84,Did you have brothers or sisters?,Family
+85,Was your home near a military base or zone?,Home
+86,Was there a hospital or clinic close to your home?,Home
+87,Did your mother wear a headscarf daily?,Family
+88,Was your father a government worker or soldier?,Family
+89,Did you live near a desert or sandy region?,Geography
+90,Was there a tree at the entrance of your home?,Home
+91,Did your family have a television at home?,Items
+92,Was there a community center or club near your house?,Home
+93,Were there any colorful houses near to where you lived?,Home
+94,Can you find your birth certificate at home?,Items
+95,Did your family own a car?,Items
+96,Does your family live with you in your home?,Family
+97,Were you born in a hospital?,Practices
+98,Were you born in the same city as your grandparents?,Family
+99,Is your birthplace where your mom and dad were when you were born?,Family
+100,Did your home have a swing set in the backyard?,Home
+101,Did your home have a computer?,Items
+102,Did your home have a big tree?,Home
+103,Was there a sandbox in your home's yard?,Home
+104,Did your home have a swimming pool?,Home
+105,Was there a basketball hoop in your home's driveway?,Home
+106,Did your home have a fireplace for keeping warm in winter?,Home
+107,Did you play games in your front yard as a child?,Home
+108,Did your home have a vegetable garden?,Home
+109,Was there a playhouse or treehouse in your home's yard?,Home
+110,Did your home have a courtyard?,Home
+111,Was there a balcony in your home?,Home
+112,Did your home have a veranda?,Home
+113,Was there a mango tree in your home's yard?,Home
+114,Did your home have a coconut grove nearby?,Geography
+115,Was there a rice paddy next to your home?,Geography
+116,Did your home have a bamboo garden?,Home
+117,Was there a tea plantation near your home?,Geography
+118,Did your home have a spice garden?,Home
+119,Was there a river or stream close to your home?,Geography
+120,Did your home have a temple nearby?,Religion
+121,Was there a banyan tree in your home's yard?,Home
+122,Did your home have a terrace?,Home
+123,Was there a fountain near your home?,Home
+124,Did your home have a market nearby?,Home
+125,Was there a field behind your home?,Home
+126,Did your home have a courtyard shrine?,Home
+127,Was there a monsoon garden near your home?,Home
+128,Did your home have a palm grove?,Home
+129,Does your mom wear glasses?,Family
+130,Does your dad have a beard ?,Family
+131,Does your mom have long hair?,Family
+132,Does your dad wear a hat?,Family
+133,Does your mom have naturally curly hair?,Family
+134,Does your dad have a mustache?,Family
+135,Does your mom wear earrings?,Family
+136,Does your dad have any tattoos?,Family
+137,Does your mom wear a necklace?,Family
+138,Does your dad have freckles?,Family
+139,Does your mom wear makeup as part of her daily routine?,Family
+140,Does your dad wear glasses?,Family
+141,Does your mom like to wear bracelets?,Family
+142,Does your dad occasionally dress up with a suit and tie?,Family
+143,Does your mom have any unique birthmarks?,Family
+144,Does your dad rely on glasses for reading?,Family
+145,Does your mom have a nose piercing?,Family
+146,Does your dad wear a watch?,Family
+147,Is your mom overweight?,Family
+148,Is your dad overweight?,Family
+149,Are your mom's eyes blue?,Family
+150,Is your dad taller than your mom?,Family
+151,Does your mom have straight hair?,Family
+152,Is your dad strong?,Family
+153,Does your mom often tie her hair in a ponytail?,Family
+154,Is your dad taller than most other dads?,Family
+155,Does your mom wear makeup sometimes?,Family
+156,Does your dad enjoy exercising?,Family
+157,Is your mom taller than average?,Family
+158,Does your dad have a belly?,Family
+159,Does your mom have any tattoos or piercings?,Family
+160,Does your dad have a deep voice?,Family
+161,Is your mom's hair shorter than your dad's?,Family
+162,Does your dad have broad shoulders?,Family
+163,Does your mom always wear a special piece of jewelry?,Family
+164,Is your dad heavier than your mom?,Family
+165,Does your mom have a beautiful smile?,Family
+166,Does your dad have any noticeable scars?,Family
+167,Is your mom's hair lighter than yours?,Family
+168,Does your dad have a favorite shirt?,Family
+169,Was your home country known for its snowy winters?,Geography
+170,Did you often eat spicy food in your hometown?,Food
+171,Did people in your hometown speak a different language than English?,Practices
+172,Was your hometown famous for its beautiful beaches?,Geography
+173,Did you celebrate any unique cultural festivals in your hometown?,Practices
+174,Did your hometown have historic landmarks or buildings?,Geography
+175,"Was transportation in your hometown mainly by subway, trolly, or metro?",Geography
+176,Did your hometown have a lot of skyscrapers and tall buildings?,Geography
+177,Did you grow up in a country known for its ancient ruins?,Geography
+178,Was your hometown known for its vibrant nightlife?,Practices
+179,Did your hometown have a famous local dish that everyone loved?,Food
+180,Was your hometown situated near mountains or forests?,Geography
+181,Did people in your hometown use many different currencies?,Geography
+182,Was your hometown known for its street markets?,Geography
+183,Did your hometown have a famous river running through it?,Geography
+184,Was your hometown famous for its unique architecture?,Geography
+185,Did your hometown experience hot summers and mild winters?,Geography
+186,Did your hometown have a lot of parks and green spaces?,Geography
+187,Was your hometown known for its colorful festivals and parades?,Practices
+188,Did your hometown have a signature style of music or dance?,Practices
+189,Was your home country known for its ancient historical sites?,Geography
+190,Did your hometown have a famous landmark that tourists often visited?,Geography
+191,Did your hometown have a strong tradition of folk music or dance?,Practices
+192,Was your hometown located in a mountainous region?,Geography
+193,Was your home located near farmland?,Geography
+194,Was transportation in your hometown primarily by tuk-tuk or rickshaw?,Practices
+195,Was your hometown known for its intricate architecture?,Geography
+196,Did your hometown have a lively waterfront area?,Geography
+197,"Was your hometown situated near a natural wonder, such as a waterfall or volcano?",Geography
+198,"Was your hometown located in a region known for its lush, tropical rainforests?",Geography
+199,Did people in your hometown greet each other with a traditional gesture or bow?,Practices
+200,Was your hometown famous for its vibrant street art and murals?,Practices
+201,Did your hometown have a famous theater or performance venue?,Practices
+202,Was traditional clothing common for special occasions in your hometown?,Practices
+203,Did people in your hometown often wear vibrant saris or kurta pajamas?,Practices
+204,Were sandals or flip-flops a popular choice for everyday wear?,Practices
+205,Was there a specific type of headwear that people in your hometown commonly wore?,Practices
+206,Did people in your hometown prefer lightweight fabrics due to the warm climate?,Practices
+207,Was there a particular color or pattern that people in your hometown wore?,Practices
+208,Did people in your hometown like to accessorize with intricate jewelry?,Practices
+209,Was there a unique style of dress associated with cultural groups in your hometown?,Practices
+210,Did people in your hometown often opt for loose-fitting garments for comfort?,Practices
+211,Was there a specific type of outerwear that people in your hometown wore?,Practices
+212,Did practicality influence the clothing choices of people in your hometown?,Practices
+213,Was there a traditional garment that both men and women wore in your hometown?,Practices
+214,Was clothing made from locally sourced materials common in your hometown?,Practices
+215,Was footwear associated with specific occupations in your hometown?,Practices
+216,Did people in your hometown tend to follow fashion trends from other countries?,Practices
+217,Did clothing hold cultural significance in your hometown?,Practices
+218,Was clothing often adorned with intricate embroidery or beadwork in your hometown?,Practices
+219,Was there a specific type of garment worn during religious or ceremonial events?,Practices
+220,Did people dress differently depending on whether they lived in urban or rural areas?,Practices
+221,Did people in your hometown wear clothing tailored to protect against the elements?,Practices
+222,Were outdoor cricket matches a common sight in your hometown?,Practices
+223,Did children often play soccer in the streets or local fields?,Practices
+224,Were games like kabaddi or kho kho popular among your peers?,Practices
+225,Did people gather for competitive games of badminton or tennis?,Practices
+226,Was there a local wrestling or martial arts tradition in your community?,Practices
+227,Did people enjoy leisurely walks or cycling along scenic routes?,Practices
+228,Were traditional board games like carrom or chess frequently played?,Practices
+229,Did cultural dances or performances take place during festivals?,Practices
+230,Were there annual sporting events or tournaments in your town?,Practices
+231,Did families often picnic in parks or by the riverside?,Practices
+232,Were traditional folk games like gilli-danda or lagori played?,Practices
+233,Did people participate in community yoga or tai chi sessions?,Practices
+234,Were there designated areas for outdoor fitness activities or gymnasiums?,Practices
+235,Did people enjoy birdwatching or nature walks in nearby parks?,Practices
+236,Were there local clubs or associations for specific sports or hobbies?,Practices
+237,Did people gather for friendly matches of volleyball or basketball?,Practices
+238,Were traditional martial arts demonstrations held during cultural events?,Practices
+239,Did people enjoy water-based activities like swimming or boating?,Practices
+240,Were there designated areas for outdoor recreation such as playgrounds or parks?,Geography
+241,Did families engage in traditional storytelling or cultural workshops?,Practices
+242,Did you eat with a fork growing up?,Food
+243,Did you eat with chopsticks growing up?,Food
+244,Is it customary where you grew up to eat with your hands?,Food
+245,Was street food a common part of daily life in your hometown?,Food
+246,Did your hometown have a famous restaurant?,Food
+247,Were there traditional cooking methods or recipes passed down through generations?,Food
+248,Did families often share homemade meals with neighbors or extended family members?,Food
+249,Did people in your hometown largely eat a vegetarian diet?,Food
+250,Were there local food markets or vendors where people could buy fresh produce?,Food
+251,Did your hometown specialize in seafood?,Food
+252,Did your hometown specialize in barbecue?,Food
+253,Did your parents cook using a stove growing up?,Food
+254,Did your hometown have a specific type of bread or pastry?,Food
+255,Do people in your hometown cook over a fire?,Food
+256,Did your hometown have a popular street food item that locals loved to eat on the go?,Food
+257,Did your hometown have a signature dessert or sweet treat?,Food
+258,"Were there local drinks in your hometown, like a special type of tea or fruit juice?",Food
+259,Were there traditional cooking competitions or culinary events?,Food
+260,Did your hometown have any food-related superstitions or beliefs?,Food
