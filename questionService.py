@@ -33,6 +33,17 @@ def rephraseQuestion(questionText):
     #return new_question[0]["summary_text"]
     return questionText
 
+def speakQuestion(question):
+    #take in an english string and speak it aloud
+    from gtts import gTTS 
+    import os 
+    language = 'ar'
+
+    myobj = gTTS(text=question, lang=language, slow=False) 
+    myobj.save("output.mp3") 
+    os.system("start output.mp3") 
+
+
 def storeResponse(userID, question, response):
     addQuestion(userID, question[0], question[1], question[2], response)
 
@@ -53,6 +64,8 @@ def runService():
             question = translate(quest[1], lang)
         else:
             question = quest[1]
+        
+        speakQuestion(question)
 
         answer = input(question + ": ")
         if answer != "":

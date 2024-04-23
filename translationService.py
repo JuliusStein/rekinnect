@@ -67,7 +67,18 @@ def get_language_code(language):
         "hindi": "hi",
         "hungarian": "hu",
         "icelandic": "is",
-        "igbo": "ig"
+        "igbo": "ig",
+        "egyptian arabic": "arz",
+        "levantine arabic": "apc",
+        "iraqi arabic": "acm",
+        "moroccan arabic": "ary",
+        "tunisian arabic": "aeb",
+        "algerian arabic": "arq",
+        "sudanese arabic": "apd",
+        "syrian arabic": "arb",
+        "bahraini arabic": "afb",
+        "kuwaiti arabic": "afb",
+        "standard arabic": "arb"
     }
     return languages.get(language.lower(), "en")
 
@@ -99,3 +110,13 @@ def example():
     print(translate(text, lang))
 
 #example()
+
+def translateBatch(file, language):
+    global tokenizer, model
+    lang = get_language_code(language)
+    initializeModel(lang)
+    with open(file, "r") as f:
+        lines = f.readlines()
+    with open("output.txt", "w") as f:
+        for line in lines:
+            f.write(translate(line, lang) + "\n")
