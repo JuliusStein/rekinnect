@@ -1,0 +1,75 @@
+ID,Question,A10,A11,A20,A30,A31,A40,A50,A60,A61,A70,B10,B11,B20,B21,B30,B40,C10,C11,C20,C21
+2,Do you have any siblings?,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y
+3,Do you know your home address?,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,PN,Y,Y,Y
+5,Was there a school near your home?,N,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y
+6,Were there any stores or restaurants close to your home?,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N
+8,Do you have relatives living in the same city?,N,N,Y,Y,Y,Y,Y,P,Y,Y,N,N,Y,Y,Y,Y,Y,Y,Y,Y
+9,Did your family have any pets?,N,N,N,Y,Y,Y,Y,N,N,N,N,Y,N,N,PN,N,Y,Y,N,N
+10,Does any of your family member have a distinct mark or tattoo?,Y,Y,N,IDK,Y,Y,N,P,PN,N,Y,N,Y,N,PN,N,Y,N,N,N
+13,Is your family religious?,IDK,IDK,Y,Y,Y,P,N,P,P,Y,N,N,Y,N,N,P,Y,Y,Y,Y
+14,Did family used to sing songs together?,P,N,Y,Y,P,Y,N,P,PN,Y,N,N,N,Y,IDK,PN,PN,Y,PN,Y
+19,Did your family own a vehicle?,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N
+21,Was your house made of bricks?,Y,Y,Y,P,Y,Y,Y,Y,Y,Y,Y,Y,P,Y,P,Y,N,Y,Y,Y
+22,Was your house black or white (not colorful)?,N,Y,N,N,N,N,Y,P,Y,Y,N,N,N,N,P,P,PN,PN,N,N
+26,Was your house made of wood?,N,Y,N,N,N,N,N,N,N,N,N,N,N,N,IDK,N,Y,N,N,N
+27,Did your family own a business?,N,N,Y,N,N,Y,N,Y,Y,N,N,N,N,N,N,N,N,N,N,N
+42,Did your parents ever take you to their workplace?,P,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,P,P,N,N,Y,N
+45,Have you been photographed with your family?,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,PN,IDK,Y,N
+46,Was there a lake or river nearby your home?,Y,Y,Y,Y,Y,Y,N,P,N,N,Y,Y,Y,Y,Y,Y,Y,N,Y,N
+49,Did any of your siblings or parents wear glasses?,Y,N,Y,Y,Y,Y,N,Y,Y,Y,N,Y,N,N,P,Y,Y,N,Y,Y
+50,Was there a favorite pet in your family?,N,N,N,Y,Y,N,Y,N,N,N,N,Y,N,N,PN,N,Y,Y,N,N
+54,Did your family own any livestock or farm animals?,Y,N,N,N,Y,Y,N,N,N,N,N,N,N,N,N,N,Y,Y,Y,Y
+55,Did your family use to pray together?,Y,N,Y,Y,Y,N,N,P,P,Y,N,N,Y,Y,N,N,Y,Y,Y,Y
+56,Did anyone in your family have a medical condition?,Y,N,N,Y,Y,Y,Y,PN,PN,Y,P,N,N,Y,IDK,IDK,Y,N,PN,N
+60,Did you live in a city?,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,P,Y,Y,N,Y,Y
+61,Did you live in a village?,N,N,N,N,N,N,N,N,N,N,N,N,N,N,P,N,Y,Y,N,N
+63,Was your home near to a mosque or church or other religious building?,Y,Y,Y,Y,Y,Y,N,N,Y,Y,Y,Y,PN,N,Y,Y,N,N,N,Y
+68,Did you live near a border of your country?,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,Y,N,N
+70,Did your family farm for your food?,N,N,N,N,N,N,N,PN,N,N,N,N,N,N,N,N,Y,Y,Y,Y
+71,Was a train station or bus stop located near your home?,Y,Y,N,P,Y,Y,P,Y,PN,Y,Y,Y,Y,Y,Y,Y,N,N,N,N
+79,Did your family celebrate religious festivals together?,Y,Y,Y,Y,Y,Y,N,Y,Y,Y,P,Y,Y,Y,Y,P,Y,Y,Y,Y
+80,Was your house painted a particular color?,Y,N,Y,Y,Y,Y,N,Y,N,Y,Y,Y,N,N,P,N,PN,Y,IDK,Y
+81,Did your family own a car or a bicycle?,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y
+82,Was there a school within walking distance from your home?,N,Y,Y,P,Y,Y,N,Y,Y,Y,Y,Y,Y,Y,P,Y,Y,Y,Y,Y
+107,Did you play games in your front yard as a child?,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,Y,Y,Y,N,Y,Y,Y,Y
+108,Did your home have a vegetable garden?,Y,Y,Y,Y,N,N,N,Y,Y,N,N,N,N,N,IDK,N,N,N,Y,Y
+109,Was there a playhouse or treehouse in your home's yard?,N,N,N,N,N,N,Y,Y,N,N,N,N,N,N,P,N,Y,Y,N,N
+169,Was your home country known for its snowy winters?,N,N,N,N,N,N,N,N,P,N,Y,Y,Y,IDK,Y,N,N,N,N,IDK
+170,Did you often eat spicy food in your hometown?,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,Y,N,N,N
+171,Did people in your hometown speak a different language than English?,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,N,N,N,N,N,N,Y,Y,Y,Y
+172,Was your hometown famous for its beautiful beaches?,Y,Y,N,N,N,Y,N,N,N,Y,N,N,N,PN,N,N,N,N,PN,IDK
+173,Did you celebrate any unique cultural festivals in your hometown?,Y,Y,Y,Y,N,Y,N,Y,PN,Y,N,N,N,IDK,P,Y,Y,Y,Y,N
+174,Did your hometown have historic landmarks or buildings?,Y,Y,Y,Y,Y,Y,Y,P,PN,Y,Y,Y,PN,Y,N,Y,Y,Y,Y,IDK
+175,"Was transportation in your hometown mainly by subway, trolly, or metro?",N,N,Y,N,N,N,N,P,N,N,N,Y,P,Y,PN,Y,PN,PN,N,IDK
+176,Did your hometown have a lot of skyscrapers and tall buildings?,P,N,N,N,N,N,Y,PN,N,N,Y,Y,Y,Y,N,Y,N,N,N,N
+177,Did you grow up in a country known for its ancient ruins?,Y,Y,N,N,N,N,Y,P,P,Y,N,N,N,N,N,N,IDK,IDK,N,N
+178,Was your hometown known for its vibrant nightlife?,Y,Y,Y,Y,P,Y,Y,PN,PN,N,PN,N,P,P,N,Y,Y,Y,N,IDK
+179,Did your hometown have a famous local dish that everyone loved?,P,Y,Y,Y,Y,Y,P,P,PN,Y,P,Y,P,Y,Y,Y,Y,Y,Y,Y
+180,Was your hometown situated near mountains or forests?,Y,Y,Y,N,Y,Y,Y,N,N,Y,N,N,N,N,Y,N,N,N,Y,N
+181,Did people in your hometown use many different currencies?,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N,N
+182,Was your hometown known for its street markets?,P,Y,Y,P,P,N,Y,P,PN,N,N,N,N,N,N,Y,Y,Y,Y,Y
+183,Did your hometown have a famous river running through it?,P,N,Y,N,N,P,Y,PN,N,N,Y,N,P,P,N,Y,Y,Y,Y,Y
+185,Did your hometown experience hot summers and mild winters?,Y,Y,Y,Y,Y,Y,N,P,PN,Y,N,N,PN,N,N,P,Y,Y,Y,IDK
+186,Did your hometown have a lot of parks and green spaces?,Y,P,Y,Y,Y,Y,P,P,P,Y,Y,Y,Y,Y,Y,P,Y,Y,N,IDK
+188,Did your hometown have a signature style of music or dance?,Y,Y,Y,Y,N,Y,N,Y,PN,Y,N,N,N,PN,N,PN,Y,Y,Y,Y
+189,Was your home country known for its ancient historical sites?,Y,Y,N,Y,N,Y,Y,Y,P,Y,N,N,N,N,N,N,Y,Y,Y,IDK
+190,Did your hometown have a famous landmark that tourists often visited?,Y,Y,Y,P,N,Y,Y,P,PN,Y,N,Y,Y,Y,N,Y,Y,Y,N,IDK
+191,Did your hometown have a strong tradition of folk music or dance?,Y,Y,Y,PN,N,Y,N,P,PN,Y,N,N,N,N,N,N,Y,Y,Y,Y
+192,Was your hometown located in a mountainous region?,N,N,N,N,N,N,N,N,N,Y,N,N,N,N,Y,N,N,N,N,N
+193,Was your home located near farmland?,N,N,N,N,N,P,N,N,N,N,N,N,N,N,P,N,Y,Y,N,N
+194,Was transportation in your hometown primarily by tuk-tuk or rickshaw?,Y,N,N,N,N,Y,N,Y,PN,N,N,N,N,N,N,N,N,IDK,PN,N
+214,Was clothing made from locally sourced materials common in your hometown?,Y,Y,N,P,N,N,N,Y,PN,N,N,N,N,N,N,N,N,N,N,N
+215,Was footwear associated with specific occupations in your hometown?,N,N,N,N,N,N,N,PN,PN,N,N,N,N,N,N,N,PN,N,Y,N
+217,Did clothing hold cultural significance in your hometown?,Y,Y,Y,N,P,P,N,P,PN,Y,N,N,N,N,N,N,Y,Y,Y,N
+218,Was clothing often adorned with intricate embroidery or beadwork in your hometown?,Y,Y,N,Y,N,P,P,P,IDK ,Y,N,N,N,N,N,N,Y,Y,Y,Y
+223,Did children often play soccer in the streets or local fields?,P,Y,Y,Y,Y,Y,Y,P,P,Y,PN,N,PN,PN,N,N,Y,Y,Y,Y
+224,Were games like kabaddi or kho kho popular among your peers?,P,N,Y,Y,Y,N,N,Y,P,N,N,N,N,N,N,N,IDK,PN,IDK,IDK
+232,Were traditional folk games like gilli-danda or lagori played?,N,N,N,N,P,Y,N,P,PN,N,N,N,N,N,N,N,IDK,IDK,IDK,IDK
+233,Did people participate in community yoga or tai chi sessions?,Y,Y,Y,Y,Y,N,N,Y,P,N,N,N,N,N,N,N,N,PN,N,IDK
+248,Did families often share homemade meals with neighbors or extended family members?,Y,Y,Y,Y,Y,Y,P,P,IDK ,Y,N,N,PN,Y,N,N,Y,Y,P,IDK
+249,Did people in your hometown largely eat a vegetarian diet?,N,N,Y,P,P,N,N,PN,PN,N,N,N,N,N,N,N,N,Y,IDK,Y
+251,Did your hometown specialize in seafood?,Y,N,N,N,N,Y,N,N,N,Y,N,N,N,N,N,N,N,N,N,N
+253,Did your parents cook using a stove growing up?,Y,Y,Y,Y,Y,Y,P,Y,IDK ,Y,Y,Y,Y,Y,Y,Y,N,N,N,Y
+255,Do people in your hometown cook over a fire?,P,N,N,N,N,Y,N,PN,PN,N,N,N,N,N,N,N,Y,Y,Y,Y
+262,Was your home near a football field?,N,N,N,N,N,Y,Y,Y,N,Y,Y,Y,N,Y,Y,Y,N,Y,N,N
+263,Was your home near a town center?,P,N,N,Y,N,Y,Y,Y,Y,Y,Y,Y,Y,N,Y,Y,N,Y,Y,Y
