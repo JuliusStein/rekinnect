@@ -36,7 +36,7 @@ def addQuestion(userid, questionID, question, category, response):
                    }
     ref.push().set(questionObj)
         
-    print("Question Added")
+    #print("Question Added")
 
 def getQuestions(userid):
     ref = db.reference("/" + userid + "/questions")
